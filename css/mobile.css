@@ -1,0 +1,46 @@
+@media(width < 1110px) {
+    body {
+        /* background-color: red; */
+        /* height: 100%; */
+        padding-block: 88px;
+        height: fit-content;
+    }
+
+    section {
+        max-width: 327px;
+        text-align: center;
+        margin-inline: auto;
+
+        .info {
+            padding: 39px 32px 32px;
+            /* order: 1; */
+
+            h2 {
+                font-size: 28px;
+                line-height: 32px;
+                margin-bottom: 16px;
+            }
+
+            &>p {
+                margin-bottom: 40px;
+            }
+
+            ul {
+                flex-direction: column;
+                /* row-gap: 24px; */
+
+                li {
+                    h3 {
+                        margin-bottom: 2px;
+                    }
+                }
+            }
+
+        }
+
+        .decor {
+            min-height: 240px;
+            order: -1;
+        }
+    }
+}
